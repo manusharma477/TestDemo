@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Hello, User!</h1>
-    <h2>This is dashboard page</h2>
+    <h2>This is dashboard page 😊</h2>
 </body>
 </html>
