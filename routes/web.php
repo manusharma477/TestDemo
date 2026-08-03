@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/commission', function () {
     return view('commission.index');
 });
+
+Route::get('dahboard', function () {
+    return view('dashboard');
+});
