@@ -10,6 +10,6 @@ Route::get('/commission', function () {
     return view('commission.index');
 });
 
-Route::get('/dahboard', function () {
+Route::get('/dashboard', function () {
     return view('dashboard');
 });
