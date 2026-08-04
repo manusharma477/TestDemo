@@ -16,6 +16,8 @@ Route::get('/test', function () {
     ]);
 });
 
+Route::get('/login-page', [AuthController::class, 'index']);
+Route::post('/login', [AuthController::class, 'login'])->name('login');
 
 Route::apiResource('students', StudentController::class);
 
