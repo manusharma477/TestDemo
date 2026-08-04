@@ -13,3 +13,7 @@ Route::get('/commission', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::get('/user-profile', function () {
+    return view('user-profile');
+});
