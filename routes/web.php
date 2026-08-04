@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,3 +18,5 @@ Route::get('/dashboard', function () {
 Route::get('/user-profile', function () {
     return view('user-profile');
 });
+
+Route::get('/payment', [PaymentController::class, 'index']);
