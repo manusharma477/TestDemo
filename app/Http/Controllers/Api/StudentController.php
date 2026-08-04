@@ -75,7 +75,7 @@ class StudentController extends Controller
         $student = Student::findOrFail($id);
 
         $request->validate([
-            'name' => 'required|string',
+            'name' => 'required',
             'email' => 'required|email|unique:students,email,' . $id,
             'phone' => 'required'
         ]);
